@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+    font-family: TheFlowerCity;
+    src: url(../fonts/theflowercity/TheFlowerCity.ttf);
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -13,6 +18,19 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+}
+
+h1.header{
+  font-family: "TheFlowerCity" !important;
+  font-size: 72pt;
+}
+
+h1{
+  font-family: "TheFlowerCity";
+}
+
+a{
+  color: #444;
 }
 
 .button-collapse {
@@ -23,7 +41,7 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  /*color: rgba(255,255,255,.9); */ 
+  color: rgba(255,255,255,.9); 
 }
   .parallax-container .section {
     width: 100%;
@@ -52,6 +70,7 @@ p {
   font-size: inherit;
 }
 
-footer.page-footer {
+.page-footer {
   margin: 0;
+  background-image: url("graphics/10.jpg")
 }

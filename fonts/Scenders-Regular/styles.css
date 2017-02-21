@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'Scenders-Regular';
+  src: url('Scenders-Regular.eot?#iefix') format('embedded-opentype'),  url('Scenders-Regular.otf')  format('opentype'),
+	     url('Scenders-Regular.woff') format('woff'), url('Scenders-Regular.ttf')  format('truetype'), url('Scenders-Regular.svg#Scenders-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

@@ -29,7 +29,7 @@ h1{
   font-family: "TheFlowerCity";
 }
 
-a{
+li > a{
   color: #444;
 }
 
